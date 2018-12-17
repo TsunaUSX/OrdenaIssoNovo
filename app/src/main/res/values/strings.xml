@@ -5,5 +5,11 @@
     <string name="confirma">Confirmar</string>
     <string name="continua">Próximo</string>
     <string name="telaAlgoritmo">Ir para a tela de algoritmo</string>
+    <string name="algoritmoNome">Nome do Algoritmo</string>
+    <string name="iteracao">Iteração</string>
+    <string name="itNum">1</string>
+    <string name="qAcontecendo">O que está acontecendo?</string>
+    <string name="descPasso">Ex: Ao se comparar valores 10 e 1, o 10 é maior então devê-se trocá-los de posição...</string>
+    <string name="anterior">Anterior</string>
 
 </resources>
