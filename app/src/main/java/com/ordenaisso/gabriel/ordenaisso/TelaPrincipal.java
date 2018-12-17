@@ -65,7 +65,7 @@ public class TelaPrincipal extends AppCompatActivity {
 
     public void abrirPagina_algoritmo()
     {
-        Intent intent = new Intent (this, AlgoritmosActivity.class);
-        startActivity(intent);
+        Intent intentAlgoritmos = new Intent (this, AlgoritmosActivity.class);
+        startActivity(intentAlgoritmos);
     }
 }
