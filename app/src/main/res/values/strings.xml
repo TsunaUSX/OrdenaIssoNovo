@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OrdenaIsso</string>
+    <string name="frase_inicio">Vamos inserir valores!</string>
+    <string name="quantidade">Digite a quantidade</string>
+    <string name="confirma">Confirmar</string>
+    <string name="continua">Próximo</string>
+    <string name="telaAlgoritmo">Ir para a tela de algoritmo</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/roxoclaro"
+        android:textSize="30sp"
+        android:text="@string/frase_inicio"
+        android:id="@+id/id_textViewInicio" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/roxoclaro"
+        android:hint="@string/quantidade"
+        android:textAlignment="center"
+        android:id="@+id/idEdtView"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirma"
+        android:layout_gravity="center"
+        android:id="@+id/idBotaoConfirma"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continua"
+        android:layout_gravity="center"
+        android:id="@+id/idBotaoProximo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/telaAlgoritmo"
+        android:layout_gravity="center"
+        android:id="@+id/idBotaoAlgoritmo"/>
+
+</LinearLayout>
