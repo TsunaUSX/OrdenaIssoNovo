@@ -11,5 +11,8 @@
     <string name="qAcontecendo">O que está acontecendo?</string>
     <string name="descPasso">Ex: Ao se comparar valores 10 e 1, o 10 é maior então devê-se trocá-los de posição...</string>
     <string name="anterior">Anterior</string>
+    <string name="insereValores">Insira os números a serem ordenados!</string>
+    <string name="msgPosicoesAnalisadas">Posições sendo analisadas neste momento:</string>
+    <string name="posicoesAnalisadas">0 e 1</string>
 
 </resources>

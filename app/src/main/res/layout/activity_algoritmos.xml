@@ -16,7 +16,45 @@
         android:layout_gravity="start"
         android:layout_weight="2"
         android:background="@color/branco"
-        />
+        android:id="@+id/idLinearLista">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msgPosicoesAnalisadas"
+                android:textColor="@color/roxoclaro"
+                android:layout_gravity="center"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_marginTop="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/posicoesAnalisadas"
+                android:textColor="@color/roxoclaro"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="0dp"
@@ -94,16 +132,20 @@
                 android:id="@+id/idbtnAnterior"
                 android:background="@color/branco"
                 android:textColor="@color/roxoclaro"
-                android:layout_marginRight="5sp" />
+                android:layout_marginEnd="5sp"
+                android:padding="10sp"
+                />
 
             <Button
-                android:layout_marginLeft="5sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/continua"
                 android:id="@+id/idbtnProxPasso"
                 android:background="@color/branco"
-                android:textColor="@color/roxoclaro"/>
+                android:textColor="@color/roxoclaro"
+                android:layout_marginStart="5sp"
+                android:padding="10sp"
+                />
 
 
         </LinearLayout>

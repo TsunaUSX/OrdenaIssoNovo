@@ -19,9 +19,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="text"
         android:textColor="@color/roxoclaro"
-        android:hint="@string/quantidade"
+        android:hint="@string/insereValores"
         android:textAlignment="center"
         android:id="@+id/idEdtView"
         />
