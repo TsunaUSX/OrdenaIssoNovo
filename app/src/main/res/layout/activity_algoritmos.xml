@@ -31,6 +31,7 @@
                 android:text="@string/msgPosicoesAnalisadas"
                 android:textColor="@color/roxoclaro"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:textSize="18sp"/>
 
             <TextView
