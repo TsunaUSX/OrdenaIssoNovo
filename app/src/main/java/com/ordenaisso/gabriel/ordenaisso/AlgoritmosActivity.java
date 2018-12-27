@@ -10,11 +10,12 @@ import android.content.res.Configuration;
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.TextView;
 
 import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
 
 public class AlgoritmosActivity extends Activity {
-
+    int cont = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +25,10 @@ public class AlgoritmosActivity extends Activity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         /* getSupportActionBar().hide(); */
         setContentView(R.layout.activity_algoritmos);
+
+        TextView txtNumIt = findViewById(R.id.idItNum);
+
+        txtNumIt.setText(Integer.toString(cont));
 
     }
 }
